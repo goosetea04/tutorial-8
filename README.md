@@ -7,3 +7,9 @@ a. what is amqp?
 b. what it means? guest:guest@localhost:5672 , what is the first quest, and what is the second guest, and what is localhost:5672 is for? 
 
 - In "guest:guest@localhost:5672", the first "guest" is the username, and the second "guest" is the password. "localhost:5672" refers to the address and port number of the server. "localhost" typically means the server is running on the same machine where the client is running, and "5672" is the default port number for AMQP communication. So, this string represents the credentials (username and password) for accessing an AMQP server running on the local machine.
+
+Sending and Processing event.
+
+![alt text](image-1.png)
+
+Here, what is happening is, the subscriber is receiving 5 messages that are computers. We know these are 5 different objects since they have 5 unique IDs and they have different NPMs or different codes. 
