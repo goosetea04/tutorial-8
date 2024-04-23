@@ -19,9 +19,6 @@ impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
         println!("In Gusti’s Computer [2206821241y]. Message received: {:?}", message);
         Ok(())
     }
-    fn get_handler_action(&self) -> String {
-        todo!()
-    }
 }
 
 fn main() {
